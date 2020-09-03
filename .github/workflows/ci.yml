@@ -11,7 +11,7 @@ jobs:
         uses: docker/build-push-action@v1
         with:
           username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: ${{ secrets.ACCESS_TOKEN }}
           registry: ghcr.io
-          repository: rurema-preview/rurema-preview
+          repository: nekoTheShadow/rurema-preview/rurema-preview
           tags: latest
