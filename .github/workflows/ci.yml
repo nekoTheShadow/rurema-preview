@@ -13,5 +13,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.ACCESS_TOKEN }}
           registry: ghcr.io
-          repository: ${{ github.repository }}
+          repository: nekotheshadow/rurema-preview
           tags: latest
